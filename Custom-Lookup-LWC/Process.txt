@@ -1,0 +1,5 @@
+ Step i).    create apex controller 
+ Step ii).   create lookup component html with js
+ Step iii).  create parent component and call chile component(Lookup component).
+
+ Thanks:- SADIQ
