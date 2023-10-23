@@ -1,5 +1,5 @@
- Step i).    create apex controller 
- Step ii).   create lookup component html with js
- Step iii).  create parent component and call chile component(Lookup component).
+ Step i).    create apex controller.
+ Step ii).   create Childlookup component.
+ Step iii).  create parent component and call child component (ChildLookup component).
 
  Thanks:- SADIQ
