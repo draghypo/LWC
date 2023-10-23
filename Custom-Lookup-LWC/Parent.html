@@ -1,0 +1,13 @@
+<template>
+	<lightning-card variant="Narrow" title="Hello" icon-name="standard:account">
+		<div class="slds-box">
+			<c-lookup-In-Lwc lookup-label="Account" object-api-name="account" icon-name="standard:account"
+				onrecordselection={onAccountSelection} ></c-lookup-In-Lwc>
+		</div>
+		<div class="slds-box">
+			Selected Account Name : {accountName} </br>
+			Selected Account Id : {accountRecordId}
+		</div>
+	</lightning-card>
+
+</template>
