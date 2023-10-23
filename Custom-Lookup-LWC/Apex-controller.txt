@@ -1,0 +1,10 @@
+public class LwcLookupController {  
+   @AuraEnabled(cacheable=true)  
+   public static List<sobject> findRecords(String searchKey, String objectName) {
+       System.debug('SearchKey='+searchKey);  // burl
+       string searchText = '\'' + String.escapeSingleQuotes(searchKey) + '%\'';  
+       System.debug('SearchText='+searchText); // 'burl%'
+       string query = 'SELECT Id, Name FROM ' +objectName+ ' WHERE Name LIKE '+searchText+' LIMIT 6';  
+       return Database.query(query);  
+   }  
+ }  
