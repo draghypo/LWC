@@ -1,0 +1,9 @@
+<template>
+	<lightning-card title="Get Picklist Values" icon-name="standard:account">
+		<div class="slds-p-around_x-small">
+			<lightning-combobox label="Picklist Type" value={picklistTypeValue} options={picklistTypeOptions}
+				onchange={handleComboboxValueChange}></lightning-combobox></br>
+			<span style="font-size:20px" class="slds-align_absolute-center">Selected Value: {picklistTypeValue}</span>
+		</div>
+	</lightning-card>
+</template>
