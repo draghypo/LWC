@@ -5,9 +5,9 @@
 						instance’s lifecycle.
 											Phase of hooks
 		-----------------------------------------------------------------------------------------
-		|											|											|
-	Mounting Phase								Unmounting Phase							Error Phase
-	a). constructor()							a). disconnectedCallback()			a).errorCallback(error, stack) 
+		|						|					|
+	Mounting Phase					Unmounting Phase			Error Phase
+	a). constructor()				a). disconnectedCallback()		a).errorCallback(error, stack) 
 	b). connectedCallback()
 	c). renderedCallback()
 	
