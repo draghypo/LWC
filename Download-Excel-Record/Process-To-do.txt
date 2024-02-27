@@ -1,0 +1,4 @@
+a). Download sheetJs library.
+b). store in the static resource.
+c).create apex class.
+d). create lwc components.
